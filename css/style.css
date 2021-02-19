@@ -1,0 +1,125 @@
+html{
+    overflow-x:hidden;
+}
+
+
+.container-cor{
+    width: 100vw; /*view width*/
+    height: 100vh; /*view height*/
+    background: url(../img/capa.jpg);
+    background-size: cover;   
+}
+.container-cabecalho{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.logo{
+    font-family: 'Reggae One', cursive;
+    font-size: 88px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    text-shadow: 2px 5px 1px black;
+    transition: .5s;
+}
+
+.logo:hover{
+    font-size: 100px;
+    transition: .5s;
+    text-shadow: 4px 10px 1px black;
+}
+
+/*MAIN*/
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.card1, .card2, .card3{
+    float: left;
+    width: 25vw;
+    height: 25vh;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.title-menu{
+    font-family: 'Reggae One', cursive;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+.title-menu ~ p{
+    font-size: 20px;
+    line-height: 1.8em;
+    margin-top: 30px;
+    text-align: justify;
+    font-family:'Nunito', sans-serif;
+}
+
+input{
+    background-color: rgb(70, 70, 70);
+    color: white;
+    font-size: 20px;
+    font-family:'Nunito', sans-serif;;
+    border: none;
+    margin-top: 20px;
+    width: 25vw;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    transition: .5s;
+}
+
+input:hover{
+    cursor: pointer;
+    background-color: black;
+    transition: .5s;
+}
+
+/*FOOTER*/
+footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: black;
+    color: white;
+}
+
+
+address{
+    padding-top: 10px;
+    font-family:'Reggae One', cursive;
+    text-align: center;
+}
+address h3{
+    font-size: 22px;
+}
+address p{
+    font-size: 18px;
+    margin-top: 10px;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+}
+nav{
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav li{
+    display: inline-block;
+    
+}
+
+
